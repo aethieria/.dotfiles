@@ -104,4 +104,4 @@ source $ZSH/oh-my-zsh.sh
 
 source /usr/share/doc/pkgfile/command-not-found.zsh
 
-alias config='/usr/bin/git --git-dir=/home/raen/.myconf/ --work-tree=/home/raen'
+alias config='/usr/bin/git --git-dir=/home/raen/.dotfiles/ --work-tree=/home/raen'
