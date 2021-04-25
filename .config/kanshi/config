@@ -1,0 +1,14 @@
+profile 'dock' {
+	output eDP-1 enable mode 1920x1080 position 0,0
+	output DP-5 mode 1920x1080@60.000Hz position 1920,0
+	output DP-3 mode 1920x1080@60.000Hz position 3840,0
+
+	exec swaymsg workspace 2, move workspace to DP-3
+	exec swaymsg workspace 3, move workspace to eDP-1
+	exec swaymsg workspace 1, move workspace to DP-5
+	exec swaymsg workspace 1
+}
+
+profile 'lap' {
+	output eDP-1 enable mode 1920x1080 position 0,0
+}

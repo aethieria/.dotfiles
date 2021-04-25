@@ -1,0 +1,8 @@
+{
+    "editor.fontFamily": "'FiraCode Nerd Font', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontLigatures": true,
+    "window.titleBarStyle": "custom",
+    "editor.wordWrap": "on",
+    "customizeUI.font.monospace": "FiraCode Nerd Font",
+    "customizeUI.font.regular": "FiraCode Nerd Font"
+}

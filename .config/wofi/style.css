@@ -1,0 +1,36 @@
+#window,
+#input,
+#entry:selected {
+	background: black;
+	color: green;
+}
+
+#outer-box {
+	padding: 20px;
+}
+
+#inner-box {
+	padding: 10px;
+}
+
+#input {
+	border: 2px solid green;
+	border-radius: 0;
+	border-bottom: none;
+}
+
+#scroll {
+	border: 2px solid green;
+}
+
+#outer-box,
+#entry:selected {
+	border: 3px solid green;
+}
+
+#input,
+#text {
+	color: green;
+	font-family: Fira Code;
+	font-size: 18px;
+}
