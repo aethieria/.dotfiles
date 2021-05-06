@@ -4,5 +4,6 @@
     "window.titleBarStyle": "custom",
     "editor.wordWrap": "on",
     "customizeUI.font.monospace": "FiraCode Nerd Font",
-    "customizeUI.font.regular": "FiraCode Nerd Font"
+    "customizeUI.font.regular": "FiraCode Nerd Font",
+    "explorer.confirmDelete": false
 }
