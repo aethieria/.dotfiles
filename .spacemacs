@@ -55,7 +55,8 @@ This function should only modify configuration layer settings."
      ;; version-control
      treemacs
      tabs
-     dap)
+     ;;dap
+     )
 
 
    ;; List of additional packages that will be installed without being wrapped
@@ -163,7 +164,7 @@ It should only modify the values of Spacemacs settings."
    ;; with `:variables' keyword (similar to layers). Check the editing styles
    ;; section of the documentation for details on available variables.
    ;; (default 'vim)
-   dotspacemacs-editing-style 'hybrid
+   dotspacemacs-editing-style 'vim
 
    ;; If non-nil show the version string in the Spacemacs buffer. It will
    ;; appear as (spacemacs version)@(emacs version)
@@ -529,7 +530,8 @@ If you are unsure, try setting them in `dotspacemacs/user-config' first.")
   "Library to load while dumping.
 This function is called only while dumping Spacemacs configuration. You can
 `require' or `load' the libraries of your choice that will be included in the
-dump.")
+dump."
+  (require 'all-the-icons))
 
 
 (defun dotspacemacs/user-config ()
